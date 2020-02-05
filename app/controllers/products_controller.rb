@@ -1,5 +1,8 @@
 class ProductsController < ApplicationController
 
+  def index
+  end
+
   def add_to_cart
     # Get the item from the path
     @item = Item.find(params[:id])
